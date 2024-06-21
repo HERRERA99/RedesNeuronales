@@ -22,10 +22,10 @@ historial = modelo.fit(celsius, fahrenhein, epochs=1000, verbose=False)
 print("Modelo entrenado!")
 
 # Guardar el modelo
-modelo.save('C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\modelo_conversion_temp.h5')
+modelo.save('C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\RedesNeuronalesGuardadas\\modelo_conversion_temp.h5')
 
 # Confirmar que el archivo ha sido guardado
-if os.path.exists('C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\modelo_conversion_temp.h5'):
+if os.path.exists('C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\RedesNeuronalesGuardadas\\modelo_conversion_temp.h5'):
     print("El modelo ha sido guardado correctamente.")
 else:
     print("Error al guardar el modelo.")

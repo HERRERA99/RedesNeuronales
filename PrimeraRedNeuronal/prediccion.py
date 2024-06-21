@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import os
 
-model_path = 'C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\modelo_conversion_temp.h5'
+model_path = 'C:\\Users\\aitor\\PycharmProjects\\RedesNeuronales\\RedesNeuronalesGuardadas\\modelo_conversion_temp.h5'
 
 # Confirmar que el archivo del modelo existe
 if not os.path.exists(model_path):
